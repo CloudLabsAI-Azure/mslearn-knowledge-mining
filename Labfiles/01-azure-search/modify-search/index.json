@@ -90,17 +90,16 @@
       {
         "name": "metadata_storage_path",
         "type": "Edm.String",
-        "facetable": false,
-        "filterable": false,
-        "key": true,
-        "retrievable": true,
         "searchable": false,
-        "sortable": false,
-        "analyzer": null,
+        "filterable": true,
+        "retrievable": true,
+        "sortable": true,
+        "facetable": false,
+        "key": true,
         "indexAnalyzer": null,
         "searchAnalyzer": null,
-        "synonymMaps": [],
-        "fields": []
+        "analyzer": null,
+        "synonymMaps": []
       },
       {
         "name": "metadata_storage_file_extension",
