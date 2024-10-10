@@ -8,7 +8,7 @@
       },
     "skills": [
       {
-        "@odata.type": "#Microsoft.Skills.Text.EntityRecognitionSkill",
+        "@odata.type": "#Microsoft.Skills.Text.V3.EntityRecognitionSkill",
         "name": "#1",
         "description": null,
         "context": "/document/merged_content",
@@ -23,7 +23,6 @@
         ],
         "defaultLanguageCode": "en",
         "minimumPrecision": null,
-        "includeTypelessEntities": null,
         "inputs": [
           {
             "name": "text",
@@ -38,10 +37,6 @@
           {
             "name": "locations",
             "targetName": "locations"
-          },
-          {
-            "name": "entities",
-            "targetName": "entities"
           }
         ]
       },
